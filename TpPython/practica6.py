@@ -12,7 +12,7 @@ import random
 
 rangoX = 100
 rangoY = 100
-
+#Ejemplo
 def randomize_positions(nodos, pos_x, pos_y):
     for node in nodos:
         pos_x[node] = random.uniform(0, rangoX)
